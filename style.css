@@ -41,7 +41,7 @@ body {
   padding: 0;
 }
 
-.input, .button{
+.input, .button {
   outline:none;
 }
 .button {
@@ -104,7 +104,7 @@ h3,
   justify-content: space-between;
   align-items: center;
 }
-.list li > *{
+.list li > * {
   vertical-align: middle;
 }
 
@@ -117,7 +117,7 @@ h3,
   font-size: 18px;
   width: 226px;
 }
-.list li >    input[type="text"] {
+.list li > input[type="text"] {
   width: 226px
 }
 .button.delete img {
