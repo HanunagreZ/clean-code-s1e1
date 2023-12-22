@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.top-content {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.top-content img {
   width: 100%;
 }
-.aaa .more_inf {
+.top-content .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .top-content { 
     text-align: center;
   }
 }
-.centered-main-page-element {
+.bottom-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -139,7 +139,7 @@ ul li input[type="text"] {
   display:none
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display:inline-block;
   width:224px
 }
